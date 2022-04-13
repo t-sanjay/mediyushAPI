@@ -20,4 +20,5 @@ from payment import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('createOrder/', views.create_order),
+    path('sendEmail/', views.sendEmail)
 ]
